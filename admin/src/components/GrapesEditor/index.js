@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'; // eslint-disable-line impor
 import PropTypes from 'prop-types';
 import GrapesJS from 'grapesjs';
 import gjsBasicBlocks from 'grapesjs-blocks-basic'; // eslint-disable-line no-unused-vars
+import gjsNavbar from 'grapesjs-navbar'; // eslint-disable-line no-unused-vars
 import { useStrapi, prefixFileUrlWithBackendUrl } from 'strapi-helper-plugin'; // eslint-disable-line import/no-unresolved
 import './assets/scss/main.scss';
 import addStrapiPlugin from './grapes-plugins/strapi';
